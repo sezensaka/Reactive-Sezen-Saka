@@ -1,10 +1,15 @@
+import imgyoga from '../images/yoga.jpg';
+import imggroup from '../images/group.webp';
+import imgsolo from '../images/solo.jpg';
+import imgstret from '../images/stret.webp';
+
 const buttonClasses = [
   {
     id: 'custom-button',
     name: 'Yoga',
     header: 'Why are your Yoga?',
     time: 'When comes Yoga Lessons Your Time.',
-    imgSrc: './images/yoga.jpg',
+    imgSrc: imgyoga,
     imgAlt: 'Yoga',
     details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic culpa consequuntur, perferendis minima aperiam tenetur quia officia dolore possimus unde, beatae exercitationem dignissimos enim, quos nostrum labore illo et provident?',
     lessons: [
@@ -18,7 +23,7 @@ const buttonClasses = [
       name: 'Group',
       header: 'Why are your Group?',
       time: 'When comes Group Lessons Your Time.',
-      imgSrc: './images/group.webp',
+      imgSrc: imggroup,
       imgAlt: 'Group',
       details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta magni vitae nulla nihil ullam repellat architecto tempora eveniet aperiam. Deleniti, iure maiores temporibus libero velit facere. Velit sapiente voluptatibus eligendi?',
       lessons: [
@@ -33,7 +38,7 @@ const buttonClasses = [
       name: 'Solo',
       header: 'Why are your Solo?',
       time: 'When comes Solo Lessons Your Time.',
-      imgSrc: './images/solo.jpg',
+      imgSrc: imgsolo,
       imgAlt: 'Solo',
       details: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. In eius soluta quaerat eos ullam ipsa nemo temporibus aperiam consectetur alias incidunt et possimus numquam ad, corporis natus excepturi minima illum magnam ratione itaque!',
       lessons: [
@@ -47,7 +52,7 @@ const buttonClasses = [
       name: 'Streching',
       header: 'Why are your Stretching?',
       time: 'When comes Stretching Lessons Your Time.',
-      imgSrc: './images/stret.webp',
+      imgSrc: imgstret,
       imgAlt: 'Stretching',
       details: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo, alias dolorum sed dolores rerum quaerat cumque cupiditate voluptatem quis impedit dolorem ea quo ipsum quam quas. Reprehenderit, veritatis.',
       lessons: [

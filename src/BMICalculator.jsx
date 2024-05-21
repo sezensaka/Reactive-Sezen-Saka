@@ -1,4 +1,5 @@
 import React from 'react';
+import bmiimg from '../images/bmi-index.jpg';
 
 function BMICalculator() {
   const calculateBMI = () => {
@@ -61,7 +62,7 @@ function BMICalculator() {
             Your BMI
           </h6>
           <div className="photo-container">
-            <img src="./images/bmi-index.jpg" alt="BMI" id="imgbmi" />
+            <img src={bmiimg} alt="BMI" id="imgbmi" />
             <div className="triangle"></div>
           </div>
           <div id="result" className="mt-4 text-center"></div>

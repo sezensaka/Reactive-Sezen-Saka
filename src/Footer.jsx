@@ -1,10 +1,11 @@
 import React from 'react';
+import logoimg from '../images/logo.png';
 
 function Footer() {
   return (
     <footer>
       <div className="footercontent">
-        <img src="./images/logo.png" alt="Logo" />
+        <img src={logoimg} alt="Logo" />
         <p style={{ color: 'white', fontSize: 'small' }}>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. A iste, distinctio architecto quas velit, sequi
           dolorem necessitatibus obcaecati perferendis sapiente, repudiandae consequatur voluptatum? Quaerat rerum quas

@@ -1,4 +1,7 @@
 import React from 'react';
+import imgtrainer1 from '../images/trainer1.jpg';
+import imgtrainer2 from '../images/trainer2.jpg';
+import imgtrainer3 from '../images/trainer3.jpg';
 
 function Trainers() {
   return (
@@ -18,7 +21,7 @@ function Trainers() {
         <div className="container">
           <div className="card3 mt-2 mb-5">
             <div className="image-container">
-              <img src="./images/trainer1.jpg" alt="Trainer 1" />
+              <img src={imgtrainer1} alt="Trainer 1" />
               <div className="line top"></div>
               <div className="line bottom"></div>
               <div className="line left"></div>
@@ -33,7 +36,7 @@ function Trainers() {
           </div>
           <div className="card3 mt-2 mb-5">
             <div className="image-container">
-              <img src="./images/trainer2.jpg" alt="Trainer 2" />
+              <img src={imgtrainer2} alt="Trainer 2" />
               <div className="line top"></div>
               <div className="line bottom"></div>
               <div className="line left"></div>
@@ -48,7 +51,7 @@ function Trainers() {
           </div>
           <div className="card3 mt-2 imgartidiv mb-5">
             <div className="image-container">
-              <img src="./images/trainer3.jpg" alt="Trainer 3" />
+              <img src={imgtrainer3} alt="Trainer 3" />
               <div className="line top"></div>
               <div className="line bottom"></div>
               <div className="line left"></div>

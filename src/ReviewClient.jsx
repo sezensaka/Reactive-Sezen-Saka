@@ -1,4 +1,6 @@
 import React from 'react';
+import imgclient1 from '../images/client1.jpg';
+import imgclient2 from '../images/client2.jpg';
 
 function ReviewClient() {
   return (
@@ -20,7 +22,7 @@ function ReviewClient() {
             <div className="col-sm-6 mt-3">
               <div className="client-card d-flex">
                 <div className="clientimg">
-                  <img src="./images/client1.jpg" alt="" />
+                  <img src={imgclient1} alt="" />
                 </div>
                 <div className="client-info">
                   <h3>Diet Expert</h3>
@@ -42,7 +44,7 @@ function ReviewClient() {
             <div className="col-sm-6 mt-3">
               <div className="client-card d-flex">
                 <div className="clientimg">
-                  <img src="./images/client2.jpg" alt="" />
+                  <img src={imgclient2} alt="" />
                 </div>
                 <div className="client-info">
                   <h3>Cardio Trainer</h3>

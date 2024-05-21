@@ -1,11 +1,12 @@
 import React from 'react';
+import logoimg from '../images/logo.png';
 
 const Header = () => {
     return (
         <header id="header" className="fixed-top" style={{ backgroundColor: 'transparent', width: '100%' }}>
             <div className="container">
                 <div className="logo">
-                    <img src="images/logo.png" alt="Logo" />
+                    <img src={logoimg} alt="Logo" />
                 </div>
                 <nav className="navbar navbar-expand-lg" id="navbar">
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style={{ color: 'white' }}>

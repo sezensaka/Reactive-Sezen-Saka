@@ -1,4 +1,8 @@
 import React from 'react';
+import imgpurchase1 from '../images/purchase1.jpg';
+import imgpurchase2 from '../images/purchase2.jpg';
+import imgpurchase3 from '../images/purchase3.jpg';
+import imgpurchase4 from '../images/purchase4.jpg';
 
 function PurchaseFromUs() {
   return (
@@ -13,7 +17,7 @@ function PurchaseFromUs() {
 
       <div id="purchase" className="mb-5">
         <div className="purchasediv">
-          <img src="./images/purchase1.jpg" className="cardimg" alt="..." />
+          <img src={imgpurchase1} className="cardimg" alt="..." />
           <div className="mt-2">
             <p className="cardhead text-center">Kettlebell / 5kg</p>
             <p className="price text-center">
@@ -26,7 +30,7 @@ function PurchaseFromUs() {
           </div>
         </div>
         <div className="purchasediv">
-          <img src="./images/purchase2.jpg" className="cardimg" alt="..." />
+          <img src={imgpurchase2} className="cardimg" alt="..." />
           <div className="mt-2">
             <p className="cardhead text-center">Treadmill</p>
             <p className="price text-center">
@@ -39,7 +43,7 @@ function PurchaseFromUs() {
           </div>
         </div>
         <div className="purchasediv">
-          <img src="./images/purchase3.jpg" className="cardimg" alt="..." />
+          <img src={imgpurchase3} className="cardimg" alt="..." />
           <div className="mt-2">
             <p className="cardhead text-center">Adjustable Dumbell</p>
             <p className="price text-center">
@@ -52,7 +56,7 @@ function PurchaseFromUs() {
           </div>
         </div>
         <div className="purchasediv">
-          <img src="./images/purchase4.jpg" className="cardimg" alt="..." />
+          <img src={imgpurchase4} className="cardimg" alt="..." />
           <div className="mt-2">
             <p className="cardhead text-center">Kettlebell / 3kg</p>
             <p className="price text-center">
