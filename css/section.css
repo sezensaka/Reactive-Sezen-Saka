@@ -1,0 +1,184 @@
+body {
+    background-image: url('../images/hero-man.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position-y: -200px;
+    height: 50vh;
+    width: 100%;
+}
+
+section{
+    margin-top: -200px;
+    padding-top: 80px;
+    z-index: 1;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+#section h1{
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+    max-width: 450px;
+}
+
+.pback{
+    padding: 5px 10px 0px 10px ;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+}
+
+#section p{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+
+.buttons {
+    margin-top: 10px;
+}
+
+.btn-primary{
+    background-color: var(--font-color-2);
+    border-color: transparent;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.btn-primary:hover{
+    background-color:transparent;
+    font-weight: 700;
+    border-color: var(--font-color-2);
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.btn-outline-dark{
+    color: var(--font-color-1);
+    padding: 6px 10px;
+    border-color: var(--font-color-1);
+    border: solid 1px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#button1{
+    padding: 2px 12px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+@media (max-width: 1199.98px) {
+    body {
+        background-image: url('../images/hero-man.jpg');
+        background-size: cover; 
+        background-repeat: no-repeat;
+        height:115vh;
+        width: 100%;
+        }
+}
+@media (max-width: 991.98px) {
+    body {
+        background-image: url('../images/hero-man.jpg');
+        background-size: cover; 
+        background-position-y: 0px;
+        background-repeat: no-repeat;
+        height:115vh;
+        width: 100%;
+        }
+}
+
+@media (max-width: 767.98px) {
+    body {
+        background-image: url('../images/hero-man.jpg');
+        background-size: cover; 
+        background-position-y: 0px;
+        background-position-x: calc(40% - 10px);
+        background-repeat: no-repeat;
+        height:115vh;
+        width: 100%;
+        }
+}
+
+
+@media (max-width: 575.98px) {
+    body {
+        background-image: url('../images/hero-man.jpg');
+        background-size: cover; 
+        background-position-y: 0px;
+        background-position-x: calc(40% - 10px);
+        background-repeat: no-repeat;
+        height:115vh;
+        width: 100%;
+        }
+
+        #button1{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #section h1{
+            margin-left: 20px;
+            margin-right: 20px;
+            font-size: 50px;
+        }
+
+        .pback{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        #section p{
+            font-size: 20px;
+        }
+
+        .buttons {
+            margin-left: 20px;
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .btn-primary{
+            background-color: var(--font-color-2);
+            border-color: transparent;
+            font-weight: 800;
+            border-radius: 3px;
+            font-size: 22px;
+            margin-right: 10px;
+            margin-left: 10px;
+            padding-left: 30px;
+            text-align: left;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        .btn-primary:hover{
+            background-color:transparent;
+            font-weight: 800;
+            border-color: var(--font-color-2);
+            border-radius: 3px;
+            font-size: 22px;
+        }
+
+        .btn-outline-dark{
+            margin-left: 10px;
+            margin-right: 10px;
+            border-width: 2px;
+            font-size: 22px;
+            margin-top: 5px;
+            text-align: left;
+            font-weight: 800;
+            padding-left: 30px;
+            padding-top: 8px;
+            padding-bottom: 8px;
+        }
+
+        
+}

@@ -1,0 +1,159 @@
+#article3 {
+    background-color: var(--background-color-1);
+}
+
+.card3 {
+    background-color: var(--font-color-1);
+    width: 220px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-color: transparent;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-container img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 1px solid var(--font-color-3);
+  }
+  
+  .line {
+    position: absolute;
+    background-color: var(--font-color-2)
+  }
+  
+  .top, .bottom {
+    height: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .left, .right {
+    width: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .top {
+    top: -8px;
+    width: 40%;
+
+  }
+  
+  .bottom {
+    bottom: -8px;
+    width: 40%;
+    z-index: 1;
+  }
+  
+  .left {
+    left: -8px;
+    height: 40%;
+  }
+  
+  .right {
+    right: -8px;
+    height: 40%;
+  }
+  
+
+  .imgartidiv {
+    position: relative;
+    display: inline-block;
+  }
+
+  .forhover {
+    opacity: 0;
+  }
+
+  .image-container:hover {
+  .forhover{
+    opacity: 1
+  }
+
+  .top {
+    top: -8px;
+    width: 40%;
+
+  }
+
+  .top, .bottom {
+    height: 8px; 
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .left, .right {
+    width: 8px;
+    top: 50%;
+    transform: translateY(-30%);
+  }
+  
+  .bottom {
+    bottom: -8px;
+    width: 75%;
+  }
+  
+  .left {
+    left: -8px;
+    height: 50%;
+  }
+  
+  .right {
+    right: -8px;
+    height: 50%;
+  }
+
+}
+
+  .plus-symbol {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    background-color: var(--font-color-2);
+    left: 50%;
+    top: 80%;
+    margin-left: -100px;
+    margin-top: -25px;
+}
+
+.plus-symbol::after {
+    content: "";
+    position: absolute;
+    width: 150px;
+    height: 80px;
+    background-color: var(--font-color-2);
+    left: 50%;
+    top: 50%;
+    margin-left: -75px;
+    margin-top: -40px;
+}
+
+.symbol-text {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--font-color-1);
+    font-size: 20px; 
+    z-index: 1;
+    font-weight: 600;
+}
+
+.symbol-text2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--font-color-1);
+    font-size: 12px; 
+    z-index: 1;
+    font-weight: 600;
+}

@@ -1,0 +1,281 @@
+#article2 {
+    margin-top: -50px;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(75deg, white 50%, rgb(246, 246, 246) 50%);
+    background-position: calc(50% - 100px) 0;
+    background-size: calc(100% + 200px) 100%;
+}
+
+#article2 .containerarticle{
+    max-width: 850px;
+    margin: 50px auto;
+}
+
+.hr{
+    width: 80px;
+    height: 6px;
+    background-color: var(--font-color-3);
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+.container2{
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.buttons2 {
+    max-width: 850px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.head2, .head1 {
+    margin-top: 50px;
+    font-size: 28px;
+    color: var(--font-color-2);
+    font-weight: 750;
+    line-height: 0.9;
+}
+
+.article2p2 {
+    color: var(--font-color-5);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: -0.8px;
+}
+
+.button3 {
+    background-color: var(--font-color-3);
+    border-color: transparent;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 16px;
+    color: var(--font-color-1);
+    padding: 5px 20px;
+}
+
+.button4 {
+    background-color: var(--font-color-2);
+    border-color: transparent;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 16px;
+    color: var(--font-color-1);
+    padding: 5px 20px;
+}
+
+.button4:hover {
+  background-color: var(--font-color-2);
+  border-color: transparent;
+  font-weight: 700;
+  border-radius: 3px;
+  font-size: 16px;
+  color: var(--font-color-1);
+  padding: 5px 20px;
+}
+
+.custom-button {
+    position: relative;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: var(--font-color-3);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 16px;
+    color: var(--font-color-1);
+    box-shadow: 0 0 5px var(--font-color-3);
+    border: 2px solid var(--font-color-3);
+  }
+
+  .custom-button:hover {
+    position: relative;
+    display: inline-block;
+    padding: 5px 20px;
+    background-color: var(--font-color-3);
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 16px;
+    color: var(--font-color-1);
+    box-shadow: 0 0 5px var(--font-color-3);
+    border: 2px solid var(--font-color-3);
+  }
+  
+  .custom-button .arrow {
+    position: absolute;
+    bottom: -9px;
+    left: 50%; 
+    transform: translateX(-50%); 
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid var(--font-color-3);
+  }
+
+  .yogaclassh3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--font-color-5);
+    margin-bottom: 15px;
+  }
+
+  #yogadiv {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  #yogaimg {
+
+    width: 400px;
+  }
+
+  #bmiarticle{
+    max-width: 850px;
+    margin: 0 auto;
+  }
+
+  .articleh6 {
+    font-size: 16px ;
+    font-weight: 700;
+  }
+
+  .forminput {
+    padding: 4px 5px 4px 5px;
+    font-size: 10px;
+    border: 1px solid var(--font-color-5);
+    width: 150px;
+    margin-right: 10px;
+    font-weight: 500;
+  }
+
+  .spaninput {
+    margin-right: 10px;
+  }
+
+
+.photo-container {
+  position: relative;
+  width: 400px; /* Resmin genişliği */
+}
+
+.photo-container img {
+  width: 100%;
+  height: auto;
+}
+
+.triangle {
+position: absolute;
+bottom: -20px;
+left: 50%;
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-bottom: 20px solid orange;
+transform: translateX(-50%);
+}
+
+#result {
+
+  font-size: small;
+}
+
+@media (max-width: 575.98px) {
+    .article2p2 {
+      max-width: 400px;
+      margin: 0 auto;
+  }
+
+  .buttons2 {
+    max-width: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-gap: 5px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .buttons2 button {
+    width: fit-content;
+    margin-bottom: 10px;
+    margin: 0 auto;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  .yogaclassh3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: var(--font-color-5);
+    margin-bottom: 15px;
+  }
+
+  .yogadiv {
+    max-width: 400px;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .yogap2 {
+    padding-bottom: 10px;
+  }
+
+  #article2 {
+    margin-top: -50px;
+    padding: 0;
+    height: 150vh;
+    background: linear-gradient(85deg, white 50%, rgb(246, 246, 246) 50%);
+    background-position: calc(50%) 0;
+    background-size: calc(100% + 200px) 100%;
+  }
+
+  #yogaimg {
+  width: 100%;
+  margin-bottom: 100px;
+  padding: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 0;
+}
+
+#bmiarticle{
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.head1 {
+  margin-top: 30px;
+  font-size: 36px;
+  color: var(--font-color-2);
+  font-weight: 750;
+}
+
+#inputs {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  align-items: left;
+  margin-top: 5px;
+}
+
+.inputs {
+margin-left: 0;
+}
+
+#result {
+  padding-bottom: 10px;
+}
+}
