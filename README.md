@@ -1,8 +1,26 @@
-# React + Vite
+# Powerfull Sport Center Projesi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bu proje, bir spor merkezi web sitesinin HTML ve CSS kullanılarak oluşturulmuş halidir. 
+Proje, müşterilere merkezin sunduğu hizmetler hakkında bilgi verir, sınıfları ve antrenörleri tanıtır, müşteri değerlendirmelerini sunar ve iletişim bilgilerini sağlar.
 
-Currently, two official plugins are available:
+## Özellikler
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Anasayfa:** Merkezin tanıtımı ve genel bilgileri.
+- **Sınıflar:** Sunulan spor sınıflarının açıklamaları ve saatleri.
+- **BMI Hesaplayıcı:** Kullanıcıların vücut kitle indeksi hesaplamalarını yapabilecekleri bir araç.
+- **En İyi Antrenörler:** Merkezin en iyi antrenörlerinin tanıtımı.
+- **Satın Alma:** Merkezin sunduğu ürünlerin listesi ve satın alma seçenekleri.
+- **Müşteri Değerlendirmeleri:** Gerçek müşterilerin merkez hakkındaki yorumları.
+- **İletişim Bilgileri:** Merkeze ulaşmak için iletişim bilgileri ve harita.
+
+## Kullanılan Teknolojiler
+
+-React
+- HTML
+- CSS
+- Bootstrap
+- JavaScript
+- React
+
+
+https://reactive-sezen-saka.vercel.app/
